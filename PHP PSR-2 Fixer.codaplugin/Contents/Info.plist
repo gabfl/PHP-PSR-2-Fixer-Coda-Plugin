@@ -4,6 +4,10 @@
 <dict>
 	<key>BuildMachineOSBuild</key>
 	<string>13F34</string>
+	<key>CFBundleName</key>
+	<string>PHP PSR-2 Fixer</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.2</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
