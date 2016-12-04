@@ -19,7 +19,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.1.2</string>
 	<key>CodaAuthorString</key>
 	<string>Gabriel Bordeaux</string>
 	<key>CodaDescriptionString</key>
@@ -65,6 +65,8 @@
 			<string>none</string>
 			<key>script</key>
 			<string>fixer.sh</string>
+			<key>setInsertionPoint</key>
+			<false/>
 			<key>uuid</key>
 			<string>052BF6D4-518B-4210-B10D-EAF406F1473B</string>
 		</dict>
