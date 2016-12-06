@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>PHP PSR-2 Fixer</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.2</string>
+	<string>1.1.3</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -23,11 +23,11 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.2</string>
+	<string>1.1.3</string>
 	<key>CodaAuthorString</key>
 	<string>Gabriel Bordeaux</string>
 	<key>CodaDescriptionString</key>
-	<string>Uses PHP-CS-Fixer to automatically fix PHP coding standards issues</string>
+	<string>Uses PHP_CodeSniffer to automatically fix PHP coding standards issues - project at https://github.com/gabfl/PHP-PSR-2-Fixer-Coda-Plugin</string>
 	<key>CodaPlugInMinimumAPIVersion</key>
 	<string>5</string>
 	<key>CodaPlugInSupportedAPIVersion</key>
@@ -60,7 +60,7 @@
 			<key>keyEquivalentConflict</key>
 			<false/>
 			<key>name</key>
-			<string>PHP PSR-2 Fixer</string>
+			<string>Entire file</string>
 			<key>output</key>
 			<string>replaceDocument</string>
 			<key>postprocess</key>
@@ -73,6 +73,24 @@
 			<false/>
 			<key>uuid</key>
 			<string>052BF6D4-518B-4210-B10D-EAF406F1473B</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>none</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalent</key>
+			<string>^$s</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Selection</string>
+			<key>output</key>
+			<string>replaceSelectedText</string>
+			<key>script</key>
+			<string>fixer.sh</string>
+			<key>uuid</key>
+			<string>1BA0A052-5A0F-41C0-9F77-5D36CBE9F8F9</string>
 		</dict>
 	</array>
 </dict>

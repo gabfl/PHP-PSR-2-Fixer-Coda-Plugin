@@ -2,6 +2,7 @@
 <ruleset name="PSR2-improved">
 
     <description>PSR-2 Coda plugin rules</description>
+
     <!-- Include the whole PSR-2 standard -->
     <rule ref="PSR2">
         

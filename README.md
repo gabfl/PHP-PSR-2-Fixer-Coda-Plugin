@@ -12,10 +12,15 @@ PHP PSR-2 Fixer is a coda plugin created to provide a simple interface to automa
 
 ## Usage
 
-When editing a PHP file, you can:
+Fix standards for an entire file:
 
  - Use the shortcut `^⇧F` (`control` + `shift` + `F`)
- - Make a right click → `Plug-ins` → `PHP PSR-2 Fixer`
+ - Make a right click → `Plug-ins` → `PHP PSR-2 Fixer` → `Entire file`
+
+Fix standards for the selected code only:
+
+ - Use the shortcut `^⇧S` (`control` + `shift` + `S`)
+ - Make a right click → `Plug-ins` → `PHP PSR-2 Fixer` → `Selection`
 
 ## Rules applied
 
